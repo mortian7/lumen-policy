@@ -45,6 +45,10 @@ h2 {
 }
 
 p { margin: 0 0 1rem; }
+article p:not(.date) {
+  text-align: justify;
+  hyphens: auto;
+}
 p:last-child { margin-bottom: 0; }
 .date { color: #b9c8d7; margin-bottom: 1.65rem; }
 a { color: #a8d9ff; text-underline-offset: .18em; }
